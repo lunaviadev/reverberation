@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed = 15f;
     public float jumpForce = 100f;
     private bool isGrounded;
-    public Transform groundCheck; 
-    public LayerMask groundLayer; 
+    public Transform groundCheck;
+    public LayerMask groundLayer;
     private Rigidbody2D rb;
 
     private void Start()
@@ -19,9 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         float moveX = 0f;
-        float moveY = 0f;
 
-        // movement keys
         if (Input.GetKey(KeyCode.A))
         {
             moveX = -1f;
@@ -33,13 +31,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = new Vector2(moveX * playerSpeed, rb.velocity.y);
 
-
-        //jumping mechanics
-
-        float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * playerSpeed, moveY);
-
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) 
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
@@ -51,6 +43,4 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
-
 }
-

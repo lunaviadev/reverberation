@@ -3,24 +3,39 @@ using UnityEngine.EventSystems;
 
 public class CommandDropHandler : MonoBehaviour, IDropHandler
 {
-    public Command commandData; // The command data to be associated with this drop zone
+    public Command assignedCommand;
+    private bool isOccupied = false;
 
     public void OnDrop(PointerEventData eventData)
     {
-        CommandDragHandler dragHandler = eventData.pointerDrag.GetComponent<CommandDragHandler>(); // Get the dragged command
+        if (isOccupied)
+        {
+            CommandDragHandler droppedCommandHandler = eventData.pointerDrag.GetComponent<CommandDragHandler>();
+            if (droppedCommandHandler != null)
+            {
+                droppedCommandHandler.transform.localPosition = droppedCommandHandler.originalPosition;
+            }
+            return;
+        }
+
+        CommandDragHandler dragHandler = eventData.pointerDrag.GetComponent<CommandDragHandler>();
+
         if (dragHandler != null)
         {
-            Command droppedCommand = dragHandler.commandData; // Get the command data from the dragged object
+            assignedCommand = dragHandler.commandData;
 
-            if (droppedCommand != null)
-            {
-                // Move the dragged command to the drop zone and set its parent to the drop zone
-                dragHandler.transform.SetParent(transform);
-                dragHandler.transform.position = transform.position;  // Position the command in the center of the drop zone
+            RectTransform commandRectTransform = dragHandler.GetComponent<RectTransform>();
 
-                // Optionally: Save or perform some other action with the dropped command
-                commandData = droppedCommand;
-            }
+            commandRectTransform.SetParent(transform);
+            commandRectTransform.localPosition = Vector3.zero;
+
+            isOccupied = true;
         }
+    }
+
+    public void ClearDropZone()
+    {
+        assignedCommand = null;
+        isOccupied = false;
     }
 }

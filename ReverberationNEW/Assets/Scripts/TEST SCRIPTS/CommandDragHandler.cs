@@ -6,8 +6,8 @@ public class CommandDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler
     private CanvasGroup canvasGroup;
     private Transform originalParent;
 
-    // Add this field to hold the Command data for this dragged object
     public Command commandData; 
+    public Vector3 originalPosition;
 
     private void Awake()
     {
@@ -17,8 +17,9 @@ public class CommandDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler
     public void OnBeginDrag(PointerEventData eventData)
     {
         originalParent = transform.parent;
-        canvasGroup.blocksRaycasts = false; // Allow dragging without interference
-        transform.SetParent(transform.root); // Make it float above UI
+        originalPosition = transform.localPosition;
+        canvasGroup.blocksRaycasts = false;
+        transform.SetParent(transform.root);
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -29,10 +30,11 @@ public class CommandDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = true;
-        if (transform.parent == transform.root) // Return to original position if not dropped on drop zone
+
+        if (transform.parent == transform.root)
         {
             transform.SetParent(originalParent);
-            transform.localPosition = Vector3.zero;
+            transform.localPosition = originalPosition;
         }
     }
 }

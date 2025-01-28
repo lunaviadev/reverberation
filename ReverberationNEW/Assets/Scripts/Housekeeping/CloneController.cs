@@ -1,74 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CloneController : MonoBehaviour
 {
-    private Queue<Command> commandQueue = new Queue<Command>();
-    private bool isExecuting = false;
-    private Vector3 savedPosition; // Position where the clone was placed
-    private bool isActive = false; // Tracks if the clone is active for interaction
-    public void Initialize(Vector3 position)
+    public GameObject uiInstance; // UI prefab for this clone
+    private bool isPlayerNearby = false;
+
+    private void Update()
     {
-        savedPosition = position;
-        transform.position = position;
-        SetActiveState(false); // Start inactive
-    }
-    public void AddCommand(Command command)
-    {
-        commandQueue.Enqueue(command);
-    }
-    public void ExecuteCommands()
-    {
-        if (!isExecuting && commandQueue.Count > 0)
+        // Check proximity to player and toggle UI visibility
+        float distance = Vector3.Distance(transform.position, PlayerController.Instance.transform.position);
+        
+        if (distance < 5f && !isPlayerNearby)
         {
-            StartCoroutine(ExecuteCommandQueue());
+            isPlayerNearby = true;
+            uiInstance.SetActive(true); // Show UI when close
         }
-    }
-    private IEnumerator ExecuteCommandQueue()
-    {
-        isExecuting = true;
-        while (commandQueue.Count > 0)
+        else if (distance >= 5f && isPlayerNearby)
         {
-            Command command = commandQueue.Dequeue();
-            yield return StartCoroutine(PerformCommand(command));
+            isPlayerNearby = false;
+            uiInstance.SetActive(false); // Hide UI when far
         }
-        isExecuting = false;
-    }
-    private IEnumerator PerformCommand(Command command)
-    {
-        if (command.action == "Move")
-        {
-            Vector3 startPosition = transform.position;
-            float duration = 1f;
-            float elapsed = 0f;
-            while (elapsed < duration)
-            {
-                transform.position = Vector3.Lerp(startPosition, command.targetPosition, elapsed / duration);
-                elapsed += Time.deltaTime;
-                yield return null;
-            }
-            transform.position = command.targetPosition;
-        }
-    }
-    public bool CheckProximity(Vector3 playerPosition, float maxDistance)
-    {
-        float distance = Vector3.Distance(playerPosition, savedPosition);
-        return distance <= maxDistance;
     }
 
-    public void SetActiveState(bool state)
+    // Set up any necessary components for the clone
+    public void SetUpClone()
     {
-        isActive = state;
-        // Add any visual or functional changes when the state changes
-        gameObject.SetActive(state);
-    }
-    public bool GetActiveState()
-    {
-        return isActive;
-    }
-    public Vector3 GetSavedPosition()
-    {
-        return savedPosition;
+        // Here we can add any clone-specific setup (e.g., initializing commands)
     }
 }

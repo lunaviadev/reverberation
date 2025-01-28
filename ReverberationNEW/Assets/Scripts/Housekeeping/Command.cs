@@ -1,16 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Command
 {
-    public string action;
-    public Vector2 targetPosition;
-
-    public Command(string action, Vector2 targetPosition)
-    {
-        this.action = action;
-        this.targetPosition = targetPosition;
-    }
+    public string action; // Action type (e.g., "Move")
+    public Vector3 targetPosition; // Target position for movement
 }
-

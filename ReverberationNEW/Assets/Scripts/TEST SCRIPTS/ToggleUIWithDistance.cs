@@ -1,61 +1,98 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ToggleUIWithDistance : MonoBehaviour
 {
-    [SerializeField] private GameObject commandsParent;
-    [SerializeField] private GameObject dropZonesParent;
+    [SerializeField] private GameObject commandsPrefab;
+    [SerializeField] private GameObject dropZonesPrefab;
     [SerializeField] private Transform player;
     [SerializeField] private float maxDistance = 5f;
 
-    private Vector3 savedPosition;
-    private bool isUIVisible = false;
-
-    void Awake()
-    {
-        isUIVisible = false;
-        if (commandsParent != null)
-            commandsParent.SetActive(false);
-        if (dropZonesParent != null)
-            dropZonesParent.SetActive(false);
-    }
-
+    private Dictionary<Transform, UIState> cloneUIStates = new Dictionary<Transform, UIState>();
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            if (!isUIVisible)
+            Transform nearestClone = GetNearestClone();
+            if (nearestClone != null)
             {
-                savedPosition = player.position;
-                ToggleUI(true);
-            }
-            else
-            {
-                ToggleUI(false);
-            }
-        }
+                if (!cloneUIStates.ContainsKey(nearestClone))
+                {
+                    SavePositionForClone(nearestClone);
+                }
 
-        if (isUIVisible)
-        {
-            if (Vector3.Distance(player.position, savedPosition) > maxDistance)
-            {
-                ToggleUI(false);
+                var uiState = cloneUIStates[nearestClone];
+                if (!uiState.IsUIVisible)
+                {
+                    ToggleUI(uiState, true);
+                }
+                else
+                {
+                    ToggleUI(uiState, false);
+                }
             }
         }
-        else
+        foreach (var kvp in cloneUIStates)
         {
-            if (Vector3.Distance(player.position, savedPosition) <= maxDistance)
+            var clone = kvp.Key;
+            var uiState = kvp.Value;
+
+            if (uiState.IsUIVisible && Vector3.Distance(player.position, uiState.SavedPosition) > maxDistance)
             {
-                ToggleUI(true);
+                ToggleUI(uiState, false);
+            }
+            else if (!uiState.IsUIVisible && Vector3.Distance(player.position, uiState.SavedPosition) <= maxDistance)
+            {
+                ToggleUI(uiState, true);
             }
         }
     }
-
-    private void ToggleUI(bool isVisible)
+    private Transform GetNearestClone()
     {
-        isUIVisible = isVisible;
-        if (commandsParent != null)
-            commandsParent.SetActive(isVisible);
-        if (dropZonesParent != null)
-            dropZonesParent.SetActive(isVisible);
+        float closestDistance = float.MaxValue;
+        Transform nearestClone = null;
+
+        foreach (var clone in cloneUIStates.Keys)
+        {
+            float distance = Vector3.Distance(player.position, clone.position);
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                nearestClone = clone;
+            }
+        }
+
+        return nearestClone;
     }
+    private void SavePositionForClone(Transform clone)
+    {
+        Vector3 savedPosition = player.position;
+
+        GameObject commandsParent = Instantiate(commandsPrefab);
+        GameObject dropZonesParent = Instantiate(dropZonesPrefab);
+
+        commandsParent.SetActive(false);
+        dropZonesParent.SetActive(false);
+
+        cloneUIStates.Add(clone, new UIState
+        {
+            SavedPosition = savedPosition,
+            CommandsParent = commandsParent,
+            DropZonesParent = dropZonesParent,
+            IsUIVisible = false
+        });
+    }
+    private void ToggleUI(UIState uiState, bool isVisible)
+    {
+        uiState.IsUIVisible = isVisible;
+        uiState.CommandsParent.SetActive(isVisible);
+        uiState.DropZonesParent.SetActive(isVisible);
+    }
+}
+public class UIState
+{
+    public Vector3 SavedPosition;
+    public GameObject CommandsParent;
+    public GameObject DropZonesParent;
+    public bool IsUIVisible;
 }

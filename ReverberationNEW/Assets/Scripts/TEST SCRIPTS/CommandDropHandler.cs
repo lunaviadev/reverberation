@@ -15,7 +15,7 @@ public class CommandDropHandler : MonoBehaviour, IDropHandler
             droppedCommand.transform.position = transform.position;
 
             
-            Debug.Log($"Command '{droppedCommand.name}' assigned to Clone ID {commandID}");
+            Debug.Log($"Command '{droppedCommand.name}' assigned to DropBoxID {commandID}");
         }
     }
 }

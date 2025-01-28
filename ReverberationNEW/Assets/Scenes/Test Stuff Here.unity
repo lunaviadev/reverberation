@@ -1405,8 +1405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec52868c32537de4ea945eb874d1bc05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandsParent: {fileID: 131001558}
-  dropZonesParent: {fileID: 3347737}
+  commandsPrefab: {fileID: 131001558}
+  dropZonesPrefab: {fileID: 3347737}
   player: {fileID: 1971730076}
   maxDistance: 2
 --- !u!4 &981950122
@@ -1587,8 +1587,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2354312f496ba4c4a956486e6d40b699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clonePrefab: {fileID: 0}
+  clonePrefab: {fileID: 4948259202180421158, guid: c7f075698f6f6254cbef9efb6f27806d, type: 3}
+  player: {fileID: 1971730076}
+  uiPanel: {fileID: 309398777}
   poolSize: 10
+  maxDistance: 5
+  spawnOffset: 0.5
 --- !u!4 &1352133956
 Transform:
   m_ObjectHideFlags: 0
@@ -1932,7 +1936,7 @@ Transform:
   m_GameObject: {fileID: 1941706025}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0358, y: -0.0081, z: 0}
+  m_LocalPosition: {x: -0.0358, y: -0.0081, z: 3.71}
   m_LocalScale: {x: 22.135824, y: 10.152023, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

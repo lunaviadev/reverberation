@@ -9,11 +9,10 @@ public class ObjectPool : MonoBehaviour
 
     private void Awake()
     {
-        // Create a pool of clones
         for (int i = 0; i < poolSize; i++)
         {
             GameObject clone = Instantiate(clonePrefab);
-            clone.SetActive(false); // Start inactive
+            clone.SetActive(false);
             clonePool.Add(clone);
         }
     }
@@ -24,16 +23,16 @@ public class ObjectPool : MonoBehaviour
         {
             if (!clone.activeInHierarchy)
             {
-                clone.transform.position = position; // Set position when reused
+                clone.transform.position = position;
                 clone.SetActive(true);
                 return clone;
             }
         }
-        return null; // Pool exhausted, you can add more clones if needed
+        return null;
     }
 
     public void ReturnCloneToPool(GameObject clone)
     {
-        clone.SetActive(false); // Deactivate clone and return to pool
+        clone.SetActive(false);
     }
 }

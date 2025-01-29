@@ -6,7 +6,7 @@ public class CommandDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler
     private CanvasGroup canvasGroup;
     private Transform originalParent;
 
-    public Command commandData; // The Command data associated with this dragged object
+    public Command commandData;
     public Vector3 originalPosition;
 
     private void Awake()
@@ -38,12 +38,10 @@ public class CommandDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler
         }
     }
 
-    // Set the command data based on the selected movement command
     public void SetCommandData(DropBox.MovementCommands commandType)
     {
         string action = "";
-        
-        // Create the Command with the action and the movement type based on the movement command
+
         switch (commandType)
         {
             case DropBox.MovementCommands.MoveLeft:
@@ -65,8 +63,6 @@ public class CommandDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler
                 action = "Unknown";
                 break;
         }
-
-        // Now create the Command object with the action and the corresponding command type
-        commandData = new Command(action, commandType); // Set the action string and the command type
+        commandData = new Command(action, commandType);
     }
 }

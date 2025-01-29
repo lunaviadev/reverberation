@@ -1,18 +1,21 @@
 using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class CloneCommandExecutor : MonoBehaviour
 {
     private List<Command> commands = new List<Command>();
-
-    // Load the commands into the executor
     public void LoadCommands(List<Command> newCommands)
     {
         commands = newCommands;
     }
 
-    // Execute all the commands
     public void ExecuteCommands()
+    {
+        StartCoroutine(ExecuteCommandsWithDelay());
+    }
+
+    private IEnumerator ExecuteCommandsWithDelay()
     {
         foreach (Command command in commands)
         {
@@ -36,9 +39,9 @@ public class CloneCommandExecutor : MonoBehaviour
                 default:
                     break;
             }
+            yield return new WaitForSeconds(0.5f);
         }
     }
-
     private void MoveLeft() { transform.Translate(Vector3.left); }
     private void MoveRight() { transform.Translate(Vector3.right); }
     private void MoveUp() { transform.Translate(Vector3.up); }

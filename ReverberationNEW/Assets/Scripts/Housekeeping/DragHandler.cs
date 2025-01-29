@@ -16,8 +16,7 @@ public class DragHandler : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        transform.position = startPosition; // Reset position if not dropped on a valid target
-        //If the command is dropped into a command square for the clone, add logic here
+        transform.position = startPosition;
     }
 }
 

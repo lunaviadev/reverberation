@@ -3,8 +3,8 @@ using UnityEngine;
 [System.Serializable]
 public class Command
 {
-    public string action; // Action type (e.g., "Move")
-    public DropBox.MovementCommands movementCommand; // Movement type (e.g., MoveLeft, MoveRight)
+    public string action;
+    public DropBox.MovementCommands movementCommand;
     
     public Command(string action, DropBox.MovementCommands movementCommand)
     {

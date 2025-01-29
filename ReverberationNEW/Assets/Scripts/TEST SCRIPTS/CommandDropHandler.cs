@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class CommandDropHandler : MonoBehaviour, IDropHandler
 {
-    public Command assignedCommand; // The command assigned to this drop zone
+    public Command assignedCommand;
     private bool isOccupied = false;
 
     public void OnDrop(PointerEventData eventData)

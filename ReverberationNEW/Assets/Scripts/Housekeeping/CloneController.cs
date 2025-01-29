@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CloneController : MonoBehaviour
 {
-    public GameObject uiInstance; // UI for this clone
+    public GameObject uiInstance;
     private bool isPlayerNearby = false;
     private CloneCommandExecutor commandExecutor;
 
@@ -29,48 +29,39 @@ public class CloneController : MonoBehaviour
     }
 
     public void SetUpClone()
-{
-    Debug.Log("Setting up clone...");
-
-    if (commandExecutor == null)
     {
-        commandExecutor = gameObject.AddComponent<CloneCommandExecutor>(); // Attach command executor
-        Debug.Log("Command executor initialized.");
-    }
-    else
-    {
-        Debug.Log("Command executor already exists.");
-    }
-}
 
-
-    public void ExecuteCloneCommands()
-{
-    if (commandExecutor == null)
-    {
-        Debug.LogError("Command Executor not initialized.");
-        return;
-    }
-
-    List<Command> collectedCommands = new List<Command>();
-
-    if (uiInstance == null)
-    {
-        Debug.LogError("UI instance is not assigned.");
-        return;
-    }
-
-    CommandDropHandler[] dropZones = uiInstance.GetComponentsInChildren<CommandDropHandler>();
-
-    foreach (CommandDropHandler dropZone in dropZones)
-    {
-        if (dropZone.assignedCommand != null)
+        if (commandExecutor == null)
         {
-            collectedCommands.Add(dropZone.assignedCommand);
+            commandExecutor = gameObject.AddComponent<CloneCommandExecutor>();
         }
     }
 
-    commandExecutor.LoadCommands(collectedCommands);
-    commandExecutor.ExecuteCommands();
-}
+    public void ExecuteCloneCommands()
+    {
+
+        List<Command> collectedCommands = new List<Command>();
+
+        CommandDropHandler[] dropZones = uiInstance.GetComponentsInChildren<CommandDropHandler>();
+
+        foreach (CommandDropHandler dropZone in dropZones)
+        {
+            if (dropZone.assignedCommand != null)
+            {
+                collectedCommands.Add(dropZone.assignedCommand);
+            }
+            else
+            {
+                dropZone.assignedCommand = null;
+            }
+        }
+
+        if (collectedCommands.Count == 0)
+        {
+            return;
+        }
+
+        commandExecutor.LoadCommands(collectedCommands);
+        commandExecutor.ExecuteCommands();
+    }
 }

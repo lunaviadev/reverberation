@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 990
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 109
+  controlID: 98
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/TEST SCRIPTS
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -332,15 +332,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/TEST SCRIPTS
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\bradl\OneDrive\Documents\GitHub\reverberation\ReverberationNEW
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 46630000
-    m_LastClickedID: 25414
+    m_SelectedIDs: d2620000
+    m_LastClickedID: 25298
     m_ExpandedIDs: 00000000c2620000d6620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -394,8 +394,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 7c670000
+    m_LastClickedInstanceID: 26492
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -906,7 +906,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -0.7397812, y: 3.1406152, z: -0.09410448}
     speed: 2
-    m_Value: {x: -0.7397812, y: 3.1406152, z: -0.09410448}
+    m_Value: {x: 606.9174, y: 338.97162, z: -4.492623}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 10.53293
     speed: 2
-    m_Value: 10.53293
+    m_Value: 459.2614
   m_Ortho:
     m_Target: 1
     speed: 2

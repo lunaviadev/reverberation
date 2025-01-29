@@ -4,12 +4,12 @@ public class PlayerController : MonoBehaviour
 {
     public static PlayerController Instance;
 
-    public GameObject clonePrefab; // Reference to the clone prefab
-    public GameObject uiPrefab; // Reference to the UI prefab for commands
+    public GameObject clonePrefab;
+    public GameObject uiPrefab;
 
     private void Awake()
     {
-        Instance = this; // Singleton pattern
+        Instance = this;
     }
 
     private void Update()
@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
             CreateClone();
         }
 
-        // Trigger commands execution when the player presses "E"
         if (Input.GetKeyDown(KeyCode.E))
         {
             ExecuteCloneCommands();
@@ -42,7 +41,6 @@ public class PlayerController : MonoBehaviour
 
     private void ExecuteCloneCommands()
     {
-        // Execute commands for each clone
         foreach (var clone in FindObjectsOfType<CloneController>())
         {
             clone.ExecuteCloneCommands();

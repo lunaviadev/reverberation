@@ -244,7 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assignedCommand:
     action: 
-    movementCommand: 0
+    movementCommand: 5
 --- !u!114 &7818968878344608591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,7 +702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assignedCommand:
     action: 
-    movementCommand: 0
+    movementCommand: 5
 --- !u!114 &2185946269191752691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assignedCommand:
     action: 
-    movementCommand: 0
+    movementCommand: 5
 --- !u!114 &1671240892211403164
 MonoBehaviour:
   m_ObjectHideFlags: 0

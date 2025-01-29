@@ -39,7 +39,6 @@ public class CloneCommandExecutor : MonoBehaviour
         }
     }
 
-    // Movement logic for each type of command
     private void MoveLeft() { transform.Translate(Vector3.left); }
     private void MoveRight() { transform.Translate(Vector3.right); }
     private void MoveUp() { transform.Translate(Vector3.up); }

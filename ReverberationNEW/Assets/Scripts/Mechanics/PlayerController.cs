@@ -28,19 +28,16 @@ public class PlayerController : MonoBehaviour
 
     private void CreateClone()
     {
-        // Create clone at player position
-        GameObject clone = Instantiate(clonePrefab, transform.position, Quaternion.identity);
 
-        // Set up clone-specific UI
-        GameObject cloneUI = Instantiate(uiPrefab);
-        CloneController cloneController = clone.GetComponent<CloneController>();
-        cloneController.uiInstance = cloneUI;
+    GameObject clone = Instantiate(clonePrefab, transform.position, Quaternion.identity);
 
-        // Hide the UI at the start
-        cloneUI.SetActive(false);
+    GameObject cloneUI = Instantiate(uiPrefab);
+    CloneController cloneController = clone.GetComponent<CloneController>();
+    cloneController.uiInstance = cloneUI;
 
-        // Associate clone with its UI
-        cloneController.SetUpClone();
+    cloneUI.SetActive(false);
+
+    cloneController.SetUpClone();
     }
 
     private void ExecuteCloneCommands()

@@ -29,23 +29,48 @@ public class CloneController : MonoBehaviour
     }
 
     public void SetUpClone()
+{
+    Debug.Log("Setting up clone...");
+
+    if (commandExecutor == null)
     {
         commandExecutor = gameObject.AddComponent<CloneCommandExecutor>(); // Attach command executor
+        Debug.Log("Command executor initialized.");
     }
+    else
+    {
+        Debug.Log("Command executor already exists.");
+    }
+}
+
 
     public void ExecuteCloneCommands()
+{
+    if (commandExecutor == null)
     {
-        List<Command> collectedCommands = new List<Command>();
-
-        // Find all drop zones in the clone's UI
-        CommandDropHandler[] dropZones = uiInstance.GetComponentsInChildren<CommandDropHandler>();
-
-        foreach (CommandDropHandler dropZone in dropZones)
-        {
-            collectedCommands.Add(dropZone.assignedCommand); // Add the command to the list
-        }
-
-        commandExecutor.LoadCommands(collectedCommands); // Load commands into the executor
-        commandExecutor.ExecuteCommands(); // Execute the commands
+        Debug.LogError("Command Executor not initialized.");
+        return;
     }
+
+    List<Command> collectedCommands = new List<Command>();
+
+    if (uiInstance == null)
+    {
+        Debug.LogError("UI instance is not assigned.");
+        return;
+    }
+
+    CommandDropHandler[] dropZones = uiInstance.GetComponentsInChildren<CommandDropHandler>();
+
+    foreach (CommandDropHandler dropZone in dropZones)
+    {
+        if (dropZone.assignedCommand != null)
+        {
+            collectedCommands.Add(dropZone.assignedCommand);
+        }
+    }
+
+    commandExecutor.LoadCommands(collectedCommands);
+    commandExecutor.ExecuteCommands();
+}
 }

@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class CommandDropHandler : MonoBehaviour, IDropHandler
 {
-    public Command assignedCommand;
+    public Command assignedCommand; // The command assigned to this drop zone
     private bool isOccupied = false;
 
     public void OnDrop(PointerEventData eventData)
@@ -25,7 +25,6 @@ public class CommandDropHandler : MonoBehaviour, IDropHandler
             assignedCommand = dragHandler.commandData;
 
             RectTransform commandRectTransform = dragHandler.GetComponent<RectTransform>();
-
             commandRectTransform.SetParent(transform);
             commandRectTransform.localPosition = Vector3.zero;
 

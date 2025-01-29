@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -19,6 +18,12 @@ public class PlayerController : MonoBehaviour
         {
             CreateClone();
         }
+
+        // Trigger commands execution when the player presses "E"
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            ExecuteCloneCommands();
+        }
     }
 
     private void CreateClone()
@@ -36,5 +41,14 @@ public class PlayerController : MonoBehaviour
 
         // Associate clone with its UI
         cloneController.SetUpClone();
+    }
+
+    private void ExecuteCloneCommands()
+    {
+        // Execute commands for each clone
+        foreach (var clone in FindObjectsOfType<CloneController>())
+        {
+            clone.ExecuteCloneCommands();
+        }
     }
 }

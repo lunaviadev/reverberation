@@ -93,7 +93,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commandData:
     action: 
-    targetPosition: {x: 0, y: 0, z: 0}
+    movementCommand: 0
+  originalPosition: {x: -235, y: 193, z: 0}
 --- !u!225 &4202959346368457392
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -166,7 +167,7 @@ GameObject:
   - component: {fileID: 7818968878344608591}
   - component: {fileID: 3178982273224679169}
   m_Layer: 7
-  m_Name: CS2
+  m_Name: DZ2
   m_TagString: DropZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,9 +242,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9763601f9acbf64ca551814f9c06923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandData:
+  assignedCommand:
     action: 
-    targetPosition: {x: 0, y: 0, z: 0}
+    movementCommand: 0
 --- !u!114 &7818968878344608591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,7 +625,7 @@ GameObject:
   - component: {fileID: 2185946269191752691}
   - component: {fileID: 1671239995342149879}
   m_Layer: 7
-  m_Name: CS3
+  m_Name: DZ3
   m_TagString: DropZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -699,9 +700,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9763601f9acbf64ca551814f9c06923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandData:
+  assignedCommand:
     action: 
-    targetPosition: {x: 0, y: 0, z: 0}
+    movementCommand: 0
 --- !u!114 &2185946269191752691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -903,7 +904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971619962025094726}
   m_Layer: 5
-  m_Name: CSlots
+  m_Name: DropZones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -943,13 +944,14 @@ GameObject:
   - component: {fileID: 5066335603134100687}
   - component: {fileID: 4138685008372473537}
   - component: {fileID: 6835641455658502711}
+  - component: {fileID: 7133762172075196235}
   m_Layer: 5
   m_Name: CommandsUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8212082043601119362
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1034,6 +1036,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &7133762172075196235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5273605227231781220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2456510133cbb42802d39642ef1455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloneController: {fileID: 4441779312298689171, guid: c7f075698f6f6254cbef9efb6f27806d, type: 3}
 --- !u!1 &5486062160933241834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,7 +1064,7 @@ GameObject:
   - component: {fileID: 1671240892211403164}
   - component: {fileID: 1857674470183173619}
   m_Layer: 7
-  m_Name: CS1
+  m_Name: DZ1
   m_TagString: DropZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1124,9 +1139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9763601f9acbf64ca551814f9c06923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandData:
+  assignedCommand:
     action: 
-    targetPosition: {x: 0, y: 0, z: 0}
+    movementCommand: 0
 --- !u!114 &1671240892211403164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1277,7 +1292,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commandData:
     action: 
-    targetPosition: {x: 0, y: 0, z: 0}
+    movementCommand: 4
+  originalPosition: {x: -364, y: 193, z: 0}
 --- !u!61 &6484629309610023891
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1428,7 +1444,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commandData:
     action: 
-    targetPosition: {x: 0, y: 0, z: 0}
+    movementCommand: 2
+  originalPosition: {x: -498, y: 193, z: 0}
 --- !u!61 &3003329157271482421
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1579,7 +1596,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commandData:
     action: 
-    targetPosition: {x: 0, y: 0, z: 0}
+    movementCommand: 3
+  originalPosition: {x: -299, y: 193, z: 0}
 --- !u!61 &6080272821702833755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1730,7 +1748,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commandData:
     action: 
-    targetPosition: {x: 0, y: 0, z: 0}
+    movementCommand: 1
+  originalPosition: {x: -431, y: 193, z: 0}
 --- !u!61 &1261702288060688387
 BoxCollider2D:
   m_ObjectHideFlags: 0

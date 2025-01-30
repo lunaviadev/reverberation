@@ -61,6 +61,11 @@ public class CloneController : MonoBehaviour
             return;
         }
 
+        if (uiInstance != null)
+        {
+            uiInstance.SetActive(false);
+        }
+
         commandExecutor.LoadCommands(collectedCommands);
         commandExecutor.ExecuteCommands();
     }

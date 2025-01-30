@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\clonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\clonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\test scripts\\clonecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\clonecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\test scripts\\toggleuiwithdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\toggleuiwithdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\test scripts\\executebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\executebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\test scripts\\commanddraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\commanddraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\mechanics\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\test scripts\\clonecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\clonecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\housekeeping\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\housekeeping\\clonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\clonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\test scripts\\executebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\executebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\test scripts\\commanddrophandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\test scripts\\commanddrophandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\commanddrophandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\test scripts\\commanddraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\commanddraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\housekeeping\\dropbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\dropbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\dropbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\housekeeping\\draghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\draghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\draghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\housekeeping\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\test scripts\\toggleuiwithdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\toggleuiwithdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DropBox.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DropBox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\DropBox.cs",
@@ -66,12 +66,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\DropBox.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:51.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T11:42:51.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DragHandler.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DragHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\DragHandler.cs",
@@ -79,12 +78,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\DragHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:49.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T11:42:49.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Command.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\Command.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\Command.cs",
@@ -92,38 +90,37 @@
               "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\Command.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:47.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T11:42:47.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "ToggleUIWithDistance.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
               "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
               "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwDAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T11:42:16.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ExecuteButtonHandler.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
               "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T11:42:11.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CommandDropHandler.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
@@ -131,18 +128,17 @@
               "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:08.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T11:42:08.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CommandDragHandler.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
               "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T11:42:04.865Z",
               "EditorCaption": ""
@@ -155,14 +151,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
               "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
               "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T11:37:13.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ObjectPool.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
@@ -170,25 +166,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:31:51.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T11:31:51.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CloneController.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\CloneController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\CloneController.cs",
               "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\CloneController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T11:31:19.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PressurePlate.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\PressurePlate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\PressurePlate.cs",

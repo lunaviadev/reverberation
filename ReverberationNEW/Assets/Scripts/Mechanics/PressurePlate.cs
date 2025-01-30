@@ -1,14 +1,49 @@
 using UnityEngine;
 
+
 public class PressurePlate : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public Door door;
+    private SpriteRenderer spriteRenderer;
+    private Color originalColor;
+    public Color activatedColor = Color.red;
+    private int objectsOnPlate = 0;
+
+    private void Start()
     {
-        Debug.Log("Object entered: " + other.gameObject.name);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+        {
+            originalColor = spriteRenderer.color;
+        }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Object exited: " + other.gameObject.name);
+        if (objectsOnPlate == 0)
+        {
+            door.OpenDoor();
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.color = activatedColor;
+            }
+        }
+        objectsOnPlate++;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        objectsOnPlate--;
+
+        if (objectsOnPlate <= 0)
+        {
+            door.CloseDoor();
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.color = originalColor;
+            }
+        }
     }
 }
+
+

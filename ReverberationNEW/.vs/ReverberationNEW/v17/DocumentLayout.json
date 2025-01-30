@@ -3,19 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\mechanics\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\mechanics\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\test scripts\\clonecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\test scripts\\clonecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\clonecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\uiaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\uiaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\mechanics\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\clonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,169 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Door.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\Door.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\Door.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\Door.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\Door.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Title": "UIAudio.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\UIAudio.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIAudio.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\UIAudio.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIAudio.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T15:55:48.605Z",
+              "WhenOpened": "2025-01-30T13:44:08.403Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "cameraZoomController.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\cameraZoomController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\cameraZoomController.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\cameraZoomController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\cameraZoomController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T13:21:03.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DropBox.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DropBox.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\DropBox.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DropBox.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\DropBox.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:51.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DragHandler.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DragHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\DragHandler.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DragHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\DragHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:49.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Command.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\Command.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\Command.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\Command.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\Command.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:47.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ToggleUIWithDistance.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAUwDAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:16.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ExecuteButtonHandler.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:11.893Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CommandDropHandler.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:08.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CommandDragHandler.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:42:04.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CloneCommandExecutor.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwFQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:37:13.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ObjectPool.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:31:51.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CloneController.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:31:19.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PressurePlate.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\PressurePlate.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\PressurePlate.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\PressurePlate.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\PressurePlate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:11:53.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
@@ -244,15 +95,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UIAudio.cs",
-              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\UIAudio.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIAudio.cs",
-              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\UIAudio.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIAudio.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "cameraZoomController.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\cameraZoomController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\cameraZoomController.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\cameraZoomController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\cameraZoomController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T13:44:08.403Z"
+              "WhenOpened": "2025-01-30T13:21:03.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DropBox.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DropBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\DropBox.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DropBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\DropBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:42:51.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DragHandler.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DragHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\DragHandler.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DragHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\DragHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:42:49.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\Command.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\Command.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\Command.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:42:47.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ToggleUIWithDistance.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\ToggleUIWithDistance.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:42:16.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExecuteButtonHandler.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\ExecuteButtonHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:42:11.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommandDropHandler.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CommandDropHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:42:08.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommandDragHandler.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:42:04.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CloneCommandExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CloneCommandExecutor.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwFQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:37:13.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObjectPool.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:31:51.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CloneController.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\CloneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\CloneController.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\CloneController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\CloneController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:31:19.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PressurePlate.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\PressurePlate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\PressurePlate.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\PressurePlate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\PressurePlate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:11:53.699Z"
             }
           ]
         }

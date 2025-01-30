@@ -15,7 +15,11 @@ C:/Users/2326296/Documents/GitHub/reverberation/ReverberationNEW
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 50726
+=======
+64927
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 Successfully changed project path to: C:/Users/2326296/Documents/GitHub/reverberation/ReverberationNEW
 C:/Users/2326296/Documents/GitHub/reverberation/ReverberationNEW
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +53,21 @@ C:/Users/2326296/Documents/GitHub/reverberation/ReverberationNEW
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [17452] Host "[IP] 10.4.7.133 [Port] 0 [Flags] 2 [Guid] 2880089391 [EditorId] 2880089391 [Version] 1048832 [Id] WindowsEditor(7,UL04PCJL21A-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [17452] Host "[IP] 10.4.7.133 [Port] 0 [Flags] 2 [Guid] 2880089391 [EditorId] 2880089391 [Version] 1048832 [Id] WindowsEditor(7,UL04PCJL21A-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 Refreshing native plugins compatible for Editor in 43.54 ms, found 4 plugins.
+=======
+Player connection [7012] Host "[IP] 10.4.7.133 [Port] 0 [Flags] 2 [Guid] 2231304906 [EditorId] 2231304906 [Version] 1048832 [Id] WindowsEditor(7,UL04PCJL21A-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7012] Host "[IP] 10.4.7.133 [Port] 0 [Flags] 2 [Guid] 2231304906 [EditorId] 2231304906 [Version] 1048832 [Id] WindowsEditor(7,UL04PCJL21A-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 42.17 ms, found 4 plugins.
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -70,24 +83,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.015558 seconds.
 - Loaded All Assemblies, in  0.477 seconds
+=======
+Registered in 0.014552 seconds.
+- Loaded All Assemblies, in  0.467 seconds
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
+<<<<<<< HEAD
 Android Extension - Scanning For ADB Devices 1591 ms
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  1.977 seconds
 Domain Reload Profiling: 2452ms
 	BeginReloadAssembly (174ms)
+=======
+Android Extension - Scanning For ADB Devices 538 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.911 seconds
+Domain Reload Profiling: 1376ms
+	BeginReloadAssembly (169ms)
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -95,26 +125,41 @@ Domain Reload Profiling: 2452ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (11ms)
+<<<<<<< HEAD
 	initialDomainReloadingComplete (69ms)
 	LoadAllAssembliesAndSetupDomain (181ms)
 		LoadAssemblies (175ms)
+=======
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (171ms)
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (157ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (155ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
+<<<<<<< HEAD
 	FinalizeReload (1977ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (1917ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1745ms)
+=======
+	FinalizeReload (911ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (852ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (687ms)
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (116ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,20 +167,32 @@ Domain Reload Profiling: 2452ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.936 seconds
 Refreshing native plugins compatible for Editor in 16.86 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  1.095 seconds
+Refreshing native plugins compatible for Editor in 22.45 ms, found 4 plugins.
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.711 seconds
 Domain Reload Profiling: 1643ms
 	BeginReloadAssembly (214ms)
+=======
+- Finished resetting the current domain, in  0.836 seconds
+Domain Reload Profiling: 1927ms
+	BeginReloadAssembly (226ms)
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (30ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (53ms)
@@ -158,10 +215,35 @@ Domain Reload Profiling: 1643ms
 			BeforeProcessingInitializeOnLoad (72ms)
 			ProcessInitializeOnLoadAttributes (367ms)
 			ProcessInitializeOnLoadMethodAttributes (40ms)
+=======
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (732ms)
+		LoadAssemblies (623ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (190ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (621ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
 Refreshing native plugins compatible for Editor in 17.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -169,6 +251,15 @@ Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 66 unused Assets / (61.9 KB). Loaded Objects now: 4540.
 Memory consumption went from 152.0 MB to 151.9 MB.
 Total: 5.004700 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.273200 ms MarkObjects: 4.106100 ms  DeleteObjects: 0.224700 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 22.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (62.0 KB). Loaded Objects now: 4539.
+Memory consumption went from 151.9 MB to 151.9 MB.
+Total: 4.908000 ms (FindLiveObjects: 0.538600 ms CreateObjectMapping: 0.598300 ms MarkObjects: 3.596400 ms  DeleteObjects: 0.173100 ms)
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,6 +275,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 438764.929448 seconds.
+  path: Assets/Images
+  artifactKey: Guid(d5c5b99741f2c4440a0638a4f667cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(d5c5b99741f2c4440a0638a4f667cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ee81ebf455c5c14cfb4e46554cd091b3') in 0.003328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.548960 seconds.
+  path: Assets/Sprites/box.png
+  artifactKey: Guid(8630a82db87fb1046beeb598704e3a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/box.png using Guid(8630a82db87fb1046beeb598704e3a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fec01989557f0c18eed45e2e9f8280ab') in 0.074393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003048 seconds.
+  path: Assets/Sprites/commandboxup.png
+  artifactKey: Guid(7d76321cda1253c41b644f65a7b93bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/commandboxup.png using Guid(7d76321cda1253c41b644f65a7b93bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '72f4a26bf4d278d9bad0221f4e5639f6') in 0.014096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/glasstileset.png
+  artifactKey: Guid(7614a26506c48ae4f9c3291f3de9922f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/glasstileset.png using Guid(7614a26506c48ae4f9c3291f3de9922f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '113ff5c9b5a41c8a45496c57ad10ebc2') in 0.018105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/openingcar.png
+  artifactKey: Guid(890064fe4dbb83946a72df16e3a4998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/openingcar.png using Guid(890064fe4dbb83946a72df16e3a4998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '68ce59aac2f415223eda01bf387f4801') in 0.015891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/commandboxupleft.png
+  artifactKey: Guid(3edea5bf559108d4f8f2571931461e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/commandboxupleft.png using Guid(3edea5bf559108d4f8f2571931461e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'aaf02d449af158a70348a8bed60587d3') in 0.014599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/commandboxupright.png
+  artifactKey: Guid(352a3023645fba4469c8ab035a812c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/commandboxupright.png using Guid(352a3023645fba4469c8ab035a812c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'df519650083d681610e809deb9032dc3') in 0.017501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+>>>>>>> parent of 630fc75 (ummm joshs fault)
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

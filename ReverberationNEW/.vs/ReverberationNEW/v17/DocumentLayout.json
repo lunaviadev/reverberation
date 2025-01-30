@@ -1,30 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\",
+  "WorkspaceRootPath": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\draghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\draghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\kinab\\downloads\\reverberation\\reverberationnew\\assets\\scripts\\housekeeping\\dropbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\dropbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\clonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\clonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\assets\\scripts\\housekeeping\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\housekeeping\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\assets\\scripts\\test scripts\\commanddraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test scripts\\commanddraghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\reverberation\\reverberationnew\\assets\\scripts\\mechanics\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE224FB4-6620-B418-8DAB-D9A4C9797746}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CommandDragHandler.cs",
-              "DocumentMoniker": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "ToolTip": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TEST SCRIPTS\\CommandDragHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T15:27:56.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ObjectPool.cs",
-              "DocumentMoniker": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
-              "ToolTip": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\ObjectPool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T15:21:27.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DropBox.cs",
-              "DocumentMoniker": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DropBox.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\DropBox.cs",
-              "ToolTip": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DropBox.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\DropBox.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwC4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T15:21:24.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DragHandler.cs",
-              "DocumentMoniker": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DragHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\DragHandler.cs",
-              "ToolTip": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\DragHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\DragHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Title": "PressurePlate.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\PressurePlate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\PressurePlate.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Mechanics\\PressurePlate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\PressurePlate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T15:21:09.737Z",
+              "WhenOpened": "2025-01-30T11:11:53.699Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Command.cs",
-              "DocumentMoniker": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\Command.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\Command.cs",
-              "ToolTip": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\Command.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\Command.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T15:21:05.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CloneController.cs",
-              "DocumentMoniker": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "ToolTip": "C:\\Users\\kinab\\Downloads\\reverberation\\ReverberationNEW\\Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Housekeeping\\CloneController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T15:20:49.018Z"
             }
           ]
         }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DropZone
   - Audio
+  - Clone
   layers:
   - Default
   - TransparentFX

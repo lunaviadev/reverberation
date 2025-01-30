@@ -1,10 +1,17 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Collections;
 
 public class CloneCommandExecutor : MonoBehaviour
 {
     private List<Command> commands = new List<Command>();
+    private CloneController cloneController;
+
+    private void Start()
+    {
+        cloneController = GetComponent<CloneController>();
+    }
+
     public void LoadCommands(List<Command> newCommands)
     {
         commands = newCommands;
@@ -41,7 +48,11 @@ public class CloneCommandExecutor : MonoBehaviour
             }
             yield return new WaitForSeconds(0.5f);
         }
+
+        yield return new WaitForSeconds(0.5f);
+        cloneController.ReturnToPool();
     }
+
     private void MoveLeft() { transform.Translate(Vector3.left); }
     private void MoveRight() { transform.Translate(Vector3.right); }
     private void MoveUp() { transform.Translate(Vector3.up); }

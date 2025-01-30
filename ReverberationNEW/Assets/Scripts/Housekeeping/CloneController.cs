@@ -6,10 +6,12 @@ public class CloneController : MonoBehaviour
     public GameObject uiInstance;
     private bool isPlayerNearby = false;
     private CloneCommandExecutor commandExecutor;
+    private ObjectPool objectPool;
 
     private void Start()
     {
         commandExecutor = GetComponent<CloneCommandExecutor>();
+        objectPool = FindObjectOfType<ObjectPool>();
     }
 
     private void Update()
@@ -30,7 +32,6 @@ public class CloneController : MonoBehaviour
 
     public void SetUpClone()
     {
-
         if (commandExecutor == null)
         {
             commandExecutor = gameObject.AddComponent<CloneCommandExecutor>();
@@ -39,7 +40,6 @@ public class CloneController : MonoBehaviour
 
     public void ExecuteCloneCommands()
     {
-
         List<Command> collectedCommands = new List<Command>();
 
         CommandDropHandler[] dropZones = uiInstance.GetComponentsInChildren<CommandDropHandler>();
@@ -63,5 +63,17 @@ public class CloneController : MonoBehaviour
 
         commandExecutor.LoadCommands(collectedCommands);
         commandExecutor.ExecuteCommands();
+    }
+
+    public void ReturnToPool()
+    {
+        if (objectPool != null)
+        {
+            objectPool.ReturnCloneToPool(gameObject);
+        }
+        else
+        {
+            Debug.LogError("ObjectPool reference is missing!");
+        }
     }
 }

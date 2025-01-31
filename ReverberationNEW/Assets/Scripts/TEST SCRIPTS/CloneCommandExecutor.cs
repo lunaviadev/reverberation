@@ -57,33 +57,33 @@ public class CloneCommandExecutor : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(5f);
         cloneController.ReturnToPool();
     }
 
     private void MoveLeft() 
     {
         UIAudio.PlayClip(0, false); 
-        transform.Translate(Vector3.left); 
+        transform.Translate(Vector3.left * 8); 
     }
     private void MoveRight() 
     {
         UIAudio.PlayClip(1, false); 
-        transform.Translate(Vector3.right); }
+        transform.Translate(Vector3.right * 8); }
     private void MoveUp() 
     {
         UIAudio.PlayClip(2, false);
-        transform.Translate(Vector3.up); 
+        transform.Translate(Vector3.up * 8); 
     }
     private void MoveLeftAndUp() 
     {
         UIAudio.PlayClip(3, false);
-        transform.Translate(Vector3.left + Vector3.up); 
+        transform.Translate(Vector3.left * 8 + Vector3.up * 8); 
     }
     private void MoveRightAndUp() 
     {
         UIAudio.PlayClip(4, false);
-        transform.Translate(Vector3.right + Vector3.up); 
+        transform.Translate(Vector3.right * 8 + Vector3.up * 8); 
     }
 
  
